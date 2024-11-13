@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <head>
+            <title>Millas por Galon</title>
+            <link rel="icon" href="images/is-this-loss-meme-5.png">
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <main>
+            <h1 align="center">Millas por Galon</h1>
+            <hr>
+            <p align="center">
+                Una aplicación para calcular el rendimiento de gasolina. 
+                La aplicación está compuesta de dos secciones, la de la mano izquierda, que calcula el rendimiento de gasolina. 
+                Utilizando valores como el precio de gasolina actual que ambos valores se recogen por el usuario. Si el usuario quiere calcular 
+                el rendimiento de gasolina entre múltiples viajes, el programa está codificado de una forma que recuerda el valor anterior y lo añade al nuevo resultado dando un total absoluto de rendimiento de gasolina. 
+                Y la de la mano derecha calcula el rendimiento de gasolina de las millas entre dos destinos. También, está una entrada opcional que el usuario puede utilizar sí el viaje se repite. 
+                El corazón del programa es una función que calcula el rendimiento de gasolina. 
+                Que es un proceso que es un poco complicado, porque en Puerto Rico se utiliza litros y el estándar de rendimiento es 1 galón por cada 6.5 millas. 
+                Para resolver esto primero se tiene que saber cuánto galones es por milla. 
+                Esto se obtiene por dividiendo 1 galones por 6.5 millas, resultándonos en un decimal. 
+                Luego para que la calculadora sea más precisa este decimal se dividió por 10 para saber cuántos galones son por 0.1 millas (que es 0.015384615). 
+                Ahora podemos cambiar millas por galones. Se multiplica 10 por las millas y después por el decimal. Se convierte los galones a litros, dividiendo galones por 0.264172. 
+                Finalmente multiplicamos litros por el precio actual de gasolina dándonos el rendimiento de gas. 
+            </p>
+            
+            <div align="center">
+                <img src="GasMileage/UI.jpg"/>
+                <img src="GasMileage/code_function.jpg"/>
+                <img src="GasMileage/code_1.jpg"/>
+                <img src="GasMileage/code_2.jpg"/>
+                <img src="GasMileage/code_3.jpg"/>
+            </div>
+            
+        </main>
+        <hr>
+        <footer>
+
+        </footer>
+    </body>
+</html>
